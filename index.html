@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Sign up for the Overwatch Team!</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body onload="console.log('Welcome to my home page!');">
+
+<!-- NAVBAR -->
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <img src=imgs/overwatch_logo.png alt="Overwatch's Logo" width="50" height="50">
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="https://overwatchleague.com/en-us/" target="_blank">Overwatch League</a></li>
+        <li><a href="https://validator.w3.org/nu/?showsource=yes&useragent=Validator.nu%2FLV+http%3A%2F%2Fvalidator.w3.org%2Fservices&acceptlanguage=&doc=https%3A%2F%2Fzanemoon13.github.io%2Fmooney-lab-foxtrot%2F" target="_blank">NU Checker</a></li>
+        <li><a href="https://github.com/ZaneMoon13/mooney-lab-foxtrot" target="_blank">GitHub Repo</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<!-- MAIN BODY -->
+
+<!-- LEFT SIDE -->
+<div class="container-fluid text-center">    
+  <div class="row content">
+    <div class="col-sm-2 sidenav">
+        <h4>Social Media for North Alabama Gaming:</h4>
+        <p>(May Require Login)</p>
+      <p><a href="https://twitter.com/una_esports" target="_blank">Twitter</a></p>
+      <p><a href="https://www.twitch.tv/una_esports/" target="_blank">Twitch.TV</a></p>
+      <p><a href="https://www.instagram.com/una_esports/" target="_blank">Instagram</a></p>
+      <br>
+      <img src=imgs/nag_logo.png alt="Logo of North Alabama Gaming" width='150' height='150'>
+    </div>
+
+<!-- MIDDLE -->
+
+
+<!-- TEXT ABOVE FORMS // INITIALIZING FORMS -->
+    <div class="col-sm-8 text-center"> 
+      <h1>Interested in playing <b>Overwatch</b> for the University of North Alabama Gaming?</h1>
+      <p>Sign up today using the sheets below:</p>
+      <ul class="nav nav-tabs">
+        <li class="active"><a data-toggle="tab" href="#home">Tank Player</a></li>
+        <li><a data-toggle="tab" href="#menu1">DPS Player</a></li>
+        <li><a data-toggle="tab" href="#menu2">Support Player</a></li>
+      </ul>
+
+<!-- BEGIN FORMS -->
+      <div class="tab-content">
+        <!-- TANK PLAYER  -->
+        <div id="home" class="tab-pane fade in active">
+          <h3>Tank Player</h3>
+          <!-- Take Input From User  -->
+          <h4>Information Sheet:</h4>
+          <label class="form-check-label" for="flexRadioDefault1">What character(s) do you play?</label>
+          <input type="text" placeholder="Zarya, Winston, Etc.">
+          <br>
+          <label class="form-check-label" for="flexRadioDefault1">When is your birthday?</label>
+          <input type="text" placeholder="YYYY-MM-DD">
+          <br>
+          <label class="form-check-label" for="flexRadioDefault1">How many hours of Overwatch have you played?</label>
+          <input type="text" placeholder="XXXhrs">
+          <br>
+          <label class="form-check-label" for="flexRadioDefault1">What is your gamertag?</label>
+          <input type="text">
+          <br>
+          <div class="form-box">
+            <h4>Would you accept playing another role?</h4>
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">Yes</label>
+            <br />
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">No</label>  
+          </div>
+          <br>
+          <label class="form-check-label" for="flexRadioDefault1">Any other information you want to tell us?</label>
+          <input type="text" placeholder="N/A">
+          <br>
+          <input type="submit" value="Submit">
+        </div>
+        <!-- DPS PLAYER -->
+        <div id="menu1" class="tab-pane fade">
+          <h3>DPS Player</h3>
+          <h4>Information Sheet:</h4>
+          <label class="form-check-label" for="flexRadioDefault1">What character(s) do you play?</label>
+          <input type="text" placeholder="Cassidy, Sombra, Etc.">
+          <br>
+          <label class="form-check-label" for="flexRadioDefault1">When is your birthday?</label>
+          <input type="text" placeholder="YYYY-MM-DD">
+          <br>
+          <label class="form-check-label" for="flexRadioDefault1">How many hours of Overwatch have you played?</label>
+          <input type="text" placeholder="XXXhrs">
+          <br>
+          <label class="form-check-label" for="flexRadioDefault1">What is your gamertag?</label>
+          <input type="text">
+          <br>
+          <div class="form-box">
+            <h4>Would you accept playing another role?</h4>
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">Yes</label>
+            <br />
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">No</label>  
+          </div>
+          <br>
+          <label class="form-check-label" for="flexRadioDefault1">Any other information you want to tell us?</label>
+          <input type="text" placeholder="N/A">
+          <br>
+          <input type="submit" value="Submit">
+        </div>
+        <!-- SUPPORT PLAYER -->
+        <div id="menu2" class="tab-pane fade">
+          <h3>Support Player</h3>
+          <h4>Information Sheet:</h4>
+          <label class="form-check-label" for="flexRadioDefault1">What character(s) do you play?</label>
+          <input type="text" placeholder="Lucio, Mercy, Etc.">
+          <br>
+          <label class="form-check-label" for="flexRadioDefault1">When is your birthday?</label>
+          <input type="text" placeholder="YYYY-MM-DD">
+          <br>
+          <label class="form-check-label" for="flexRadioDefault1">How many hours of Overwatch have you played?</label>
+          <input type="text" placeholder="XXXhrs">
+          <br>
+          <label class="form-check-label" for="flexRadioDefault1">What is your gamertag?</label>
+          <input type="text">
+          <br>
+          <div class="form-box">
+            <h4>Would you accept playing another role?</h4>
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">Yes</label>
+            <br />
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">No</label>  
+          </div>
+          <br>
+          <label class="form-check-label" for="flexRadioDefault1">Any other information you want to tell us?</label>
+          <input type="text" placeholder="N/A">
+          <br>
+          <input type="submit" value="Submit">
+        </div>
+      </div>
+      </div>
+
+<!-- RIGHT SIDE  -->
+    <div class="col-sm-2 sidenav">
+      <div class="well">
+        <div class="container">
+          <img src="imgs/lucio_portrait.png" alt="Portrait of Lucio" class="image" width="75" height="100">
+          <div class="middle">
+            <div class="text">Lucio Oh Oh's!</div>
+          </div>
+        </div>
+        <p>What is Overwatch? Click <a href=https://playoverwatch.com/en-us/ target="_blank">here!</a></p>
+      </div>
+      <div class="well">
+        <img src=imgs/championship.jpg alt="UNA's championship graphic" width='150' height='100'>
+        <p>Check out our <a href=https://www.instagram.com/p/CUDDJGbLKYH/ target="_blank">championship ring ceremony</a> from Spring 2021!</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<br>
+<br>
+<br>
+
+<!-- FOOTER TEXT -->
+
+<footer class="container-fluid text-center">
+  <p>North Alabama Gaming © 2042</p>
+</footer>
+
+<script src="jS/scripts.js"></script>
+<script src="jS/dev_skills.js"></script>
+</body>
+</html>
