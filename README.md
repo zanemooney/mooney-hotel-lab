@@ -28,10 +28,10 @@
   - default input, help info, examples
 
 ## Min. Acceptance Criteria
-- [ ] 10/sumbit working link, links to repo & validity (all valid) 
-- [ ] 5/super clean repo & dir (no partial credit) 
-- [ ] 10/super clean code: id's, classes, naming, format "pretty", no extras
-- [ ] 5/COMMENTS in CODE, author and talk to me
+- [X] 10/sumbit working link, links to repo & validity (all valid) 
+- [X] 5/super clean repo & dir (no partial credit) 
+- [X] 10/super clean code: id's, classes, naming, format "pretty", no extras
+- [X] 5/COMMENTS in CODE, author and talk to me
 - [ ] 10/all required inputs
-- [ ] 5/page has info and context
-- [ ] 5/fridge factor 
+- [X] 5/page has info and context
+- [X] 5/fridge factor 
